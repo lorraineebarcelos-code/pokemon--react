@@ -126,3 +126,17 @@ code {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
+/* Imagens dos pokémons: priorizar fundo transparente (PNG com alpha) */
+.CardPokemon img{
+  background: transparent;
+  display: block;
+  margin: 0 auto 12px;
+  width: 200px;
+  height: 210px;
+  object-fit: contain;
+}
+
+/* Se as imagens tiverem fundo branco e você quiser remover o branco,
+   converta-as para PNG com transparência usando um editor (Photoshop/GIMP)
+   ou uma ferramenta online. */
