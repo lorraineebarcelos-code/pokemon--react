@@ -52,12 +52,6 @@
 
 body {
   margin: 0;
-  /* Imagem de fundo do site (usa src/assets/fundo.jpg) */
-  background-image: url('./assets/fundo.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 #root {
